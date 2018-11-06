@@ -16,7 +16,7 @@ public: true
     - 5) Markdown의 타 블로그 연동
     - 6) 자체 호스팅시의 보안이슈
 * 본 사이트는 EasyBook의 초기 테마를 기준으로 아래와 같이 업데이트 하였습니다. 본 테마를 적용하고 싶은 경우, 아래의 Github Repository를 참조하세요. 
-<https://github.com/yunho0130/yunho0130.github.io>
+<https://github.com/Hyunmo-OH/Hyunmo-OH.github.io>
 
 ## [2] 업데이트 예정
 
