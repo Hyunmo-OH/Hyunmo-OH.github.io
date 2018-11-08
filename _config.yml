@@ -1,5 +1,5 @@
 # Site settings
-title: Hyunmo_Oh의 블로그 Hyunmo_Oh's Blog
+title: 현모링의 블로그 Hyunmo_Oh's Blog
 url: "http://hyunmo-oh.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 timezone: Asia/Seoul
@@ -11,13 +11,14 @@ email: hyunmo917@gmail.com
 author: 오현모
 # avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 avatar: "//github.com/yunho0130/yunho0130.github.io/blob/master/_jpg/yunhomaeng.png"
-profile: <br> 경영 빅데이터 분석 블로그 만들기 실습
+profile: <br> 빅데이터 과학 연계 전공 과정 학생의
+강의 정리용 블로그 입니다!
 #twitter_username: twitter_username
 github_username:  Hyunmo-OH
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-disqus_shortname: maengdev   # get one: https://disqus.com/admin/signup/
+disqus_shortname: 오현모   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 permalink: /archivers/:title
