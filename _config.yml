@@ -20,6 +20,9 @@ github_username:  Hyunmo-OH
 disqus_shortname: hyunmo917   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
+# Google Analytics
+google_analytics_id: UA-128992107-1
+
 permalink: /archivers/:title
 gems:
  - jekyll-paginate
