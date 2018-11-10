@@ -29,12 +29,14 @@ div.desc {
   <!-- Profile Image -->
 <img src="https://avatars3.githubusercontent.com/u/42957428?s=460&v=4">
 <div class="col-box col-box-author", align= center>
-  
+  <!--
   <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}">
   <div class="col-box-title name">{{ site.author }}</div>
+  -->
+  <div class="col-box-title name">{{ site.author }}</div>
   
-  <div class="col-box-title name", align = center>{{site.author }}</div>
   <p>{{ site.profile }}</p>
+ 
   <p class="contact">
     {% if site.twitter_username %}
     <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
