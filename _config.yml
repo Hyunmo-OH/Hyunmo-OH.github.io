@@ -1,5 +1,5 @@
 # Site settings
-title: 현모링의 블로그 Hyunmo_Oh's Blog
+title: 현모링의 블로그 Hyunmoring's Blog
 url: "http://hyunmo-oh.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 timezone: Asia/Seoul
@@ -8,7 +8,7 @@ description: >
 
 # Your information
 email: hyunmo917@gmail.com
-author: 오현모
+author: 현모링
 # avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 avatar: "https://github.com/Hyunmo-OH/Hyunmo-OH.github.io/blob/master/media/jake-the-dog.png"
 profile: <br> 빅데이터 과학 연계 전공 과정 학생의 강의 정리용 블로그 입니다!
