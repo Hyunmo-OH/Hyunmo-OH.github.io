@@ -6,7 +6,20 @@ layout: default
   <header class="post-header">
     <h3 class="post-title">{{ page.title }}</h3>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> 
-    <p class="post-tags">{% include post_tags.html %}</p>
+    <img src="https://raw.githubusercontent.com/hyesun03/hyesun03.github.io/master/images/tag-256.png" alt="Tags: " class="tag-img"/>
+    <p class="post-tags">
+      {% if post %}
+        {% assign tags = post.tags %}
+      {% else %}
+        {% assign tags = page.tags %}
+      {% endif %}
+      {% for tag in tags %}
+      <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </p>
+<!--
+<br/></p>
+-->
   </header>
   
   <article class="post-content">
