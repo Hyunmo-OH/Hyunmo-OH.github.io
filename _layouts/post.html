@@ -6,11 +6,9 @@ layout: default
   <header class="post-header">
     <h3 class="post-title">{{ page.title }}</h3>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> 
-<!--
-<br/></p>
--->
   </header>
-  
+  {% include post_tags.html %}
+  <br/>
   <article class="post-content">
     {{ content }}
   </article>
@@ -18,3 +16,7 @@ layout: default
   {% include comment.html %}
 
 </div>
+
+<!--
+<br/></p>
+-->
